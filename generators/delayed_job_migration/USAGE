@@ -1,0 +1,10 @@
+Description:
+    Creates a migration to add the delayed jobs table used by the delayed_jobs
+    plugin. Pass the migration name, either CamelCased or under_scored,
+    as an argument.
+
+Example:
+    `./script/generate delayed_job_migration CreateDelayedJobTable`
+
+    With 4 existing migrations, this creates the AddDelayedJobTable migration
+    in db/migrate/005_add_delayed_job_table.rb
