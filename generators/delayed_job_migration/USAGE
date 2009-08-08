@@ -4,7 +4,7 @@ Description:
     as an argument.
 
 Example:
-    `./script/generate delayed_job_migration CreateDelayedJobTable`
+    `./script/generate delayed_job_migration CreateDelayedJobs`
 
-    With 4 existing migrations, this creates the AddDelayedJobTable migration
-    in db/migrate/005_add_delayed_job_table.rb
+    On 8Aug09 at almost quarter after 8p UTC, this creates the CreateDelayedJobs 
+    migration in db/migrate/20090808201453_create_delayed_jobs.rb

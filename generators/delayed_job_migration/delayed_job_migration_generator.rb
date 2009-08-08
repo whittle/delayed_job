@@ -1,6 +1,6 @@
 class DelayedJobMigrationGenerator < Rails::Generator::NamedBase
 	def initialize(runtime_args, runtime_options = {})
-		runtime_args << 'add_delayed_job_table' if runtime_args.empty?
+		runtime_args << 'create_delayed_jobs' if runtime_args.empty?
 		super
 	end
 	
